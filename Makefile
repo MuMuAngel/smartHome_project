@@ -28,7 +28,7 @@ $(TARGET): $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS) $(LDFLAGS) $(LIBS)
     
 complie : $(TARGET)
-	scp ./obj/smartHome ./ini/gdevice.ini orangepi@192.168.10.36:/home/orangepi/smartHome_project
+#	scp ./obj/smartHome ./ini/gdevice.ini orangepi@192.168.10.36:/home/orangepi/smartHome_project
 
 
 clean : 
