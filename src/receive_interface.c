@@ -184,6 +184,7 @@ static void receive_final(void)
     }
 }
 
+// 接收处理线程
 static void *device_handle(void *arg)
 {
     // 分离线程
@@ -372,6 +373,7 @@ static void *device_handle(void *arg)
     pthread_exit(0);
 }
 
+// 接收获取线程
 static void *receive_get(void *arg)
 
 {
